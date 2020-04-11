@@ -1,0 +1,156 @@
+:root {
+	// --theme-light: #a0c0cd;
+	// --theme-dark: #223d5c;
+}
+
+$background: #f2f5f8;
+$background-light: #c6d3e0;
+$background-dark: #a5bace;
+$background-darker: #3b546d;
+$white-background: #ffffff;
+$header-background: $white-background;
+$filter-background: $white-background;
+$pricing-background: $white-background;
+$card-background: $white-background;
+
+// App
+$theme-light: #9abecb;
+$theme-dark: #203d5c;
+
+// Lines
+$darken-soft: rgba(0,0,0,0.1);
+$lighten-soft: rgba(255, 255, 255, 0.1);
+
+// Main
+$black: #000;
+$off-black: #151515;
+$text: #303031;
+$text-light: #454546;
+$faded-text: #70707b;
+$off-white: #ebebeb;
+$white: #fff;
+$transparent: rgba(0,0,0,0);
+
+// Elements
+$filter: #ffd631;
+$link: #0099F9;
+$green-check: #82c91e;
+$faded-check: #bbbbbb;
+$button-select: #339af0;
+$faded-select: #cacada;
+$premium-red: #f24033;
+$premium-yellow: #f8e83b;
+$badge-red: #f45e53;
+
+// Pages
+$faded-page: #555555;
+$color-apps: #ff4c9f;
+$color-web: #248de8;
+$color-extensions: #4ab446;
+// $color-maker: #ca6040;
+$color-maker: #807686;
+$color-design: #2097e2;
+$color-code: #7e65e4;
+$color-investing: #00a57c;
+$color-crypto: #e88500;
+$color-travel: #fa554f;
+$color-pricing: #82c91e;
+// $color-pricing: #555555;
+
+.color-apps {
+	color: $color-apps!important;
+}
+.color-web {
+	color: $color-web!important;
+}
+.color-extensions {
+	color: $color-extensions!important;
+}
+.color-maker {
+	color: $color-maker!important;
+}
+.color-design {
+	color: $color-design!important;
+}
+.color-code {
+	color: $color-code!important;
+}
+.color-investing {
+	color: $color-investing!important;
+}
+.color-crypto {
+	color: $color-crypto!important;
+}
+.color-travel {
+	color: $color-travel!important;
+}
+.color-pricing {
+	color: $color-pricing!important;
+}
+
+// App
+$app-light: #abcfdb;
+$app-medium: #4c98b2;
+$app-dark: #336676;
+
+// Text color
+.color-transparent {
+	color: $transparent!important;
+}
+.color-white {
+	color: $white!important;
+}
+.color-off-white {
+	color: $off-white!important;
+}
+.color-text {
+	color: $text!important;
+}
+.color-off-black {
+	color: $off-black!important;
+}
+.color-black {
+	color: $black!important;
+}
+.color-theme-light {
+	color: var(--theme-light);
+}
+.color-theme-dark {
+	color: var(--theme-dark);
+}
+
+// Background color
+.bg-transparent {
+	background-color: $transparent!important;
+}
+.bg-white {
+	background-color: $white!important;
+}
+.bg-off-white {
+	background-color: $off-white!important;
+}
+.bg-app-light {
+	background-color: $app-light!important;
+}
+.bg-app-medium {
+	background-color: $app-medium!important;
+}
+.bg-app-dark {
+	background-color: $app-dark!important;
+}
+.bg-off-black {
+	background-color: $off-black!important;
+}
+.bg-black {
+	background-color: $black!important;
+}
+.bg-theme-light {
+	background-color: var(--theme-light);
+}
+.bg-theme-dark {
+	background-color: var(--theme-dark);
+}
+
+.page-disabled {
+	opacity: 0.4;
+}

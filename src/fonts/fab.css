@@ -1,0 +1,10 @@
+@font-face {
+			font-family: 'Font Awesome 5 Brands';
+			font-style: normal;
+			font-weight: normal;
+			font-display: swap;
+			src: url("fa/fa-brands-400.woff2");
+			src: url("fa/fa-brands-400.woff2") format("woff2"), url("fa/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fa/fa-brands-400.woff") format("woff"), url("fa/fa-brands-400.ttf") format("truetype"); }
+
+.fab {
+			font-family: 'Font Awesome 5 Brands'; }
