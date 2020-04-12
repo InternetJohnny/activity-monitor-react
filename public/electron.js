@@ -14,7 +14,7 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     useContentSize: true,
     // Set the initial width to 500px
-    width: 1000,
+    width: 280,
     // Set the initial height to 400px
     height: 400,
     // set the title bar style
@@ -24,7 +24,7 @@ function createWindow() {
     // make the background transparent
     transparent: true,
     // don't show a frame around it
-    // frame: false,
+    frame: false,
     // Don't show the window until it's ready, this prevents any white flickering
     show: false,
     // allows resizing pinWindow

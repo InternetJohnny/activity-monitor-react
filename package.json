@@ -1,6 +1,6 @@
 {
   "name": "blloc-challenge",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "public/electron.js",
   "homepage": "./",
   "private": true,
