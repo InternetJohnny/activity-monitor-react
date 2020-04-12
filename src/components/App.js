@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Nav />
       <Blloc type="ram" />
-      // <Blloc type="cpu" />
+      <Blloc type="cpu" />
     </div>
   );
 }

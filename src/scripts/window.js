@@ -1,6 +1,8 @@
 const { ipcRenderer } = require("electron");
-const { RamData, CpuData } = require("/scripts/chart.mjs");
-// import { RamData, CpuData } from "./scripts/chart.mjs";
+const { RamData, CpuData } = require("./scripts/chart-instance.js");
+// const RamData = require("./scripts/ram-data.js");
+// const CpuData = require("./scripts/cpu-data.js");
+// import { RamData, CpuData } from "chart-instance.js";
 
 const monitors = [];
 
@@ -14,6 +16,12 @@ function toggleGrayscale() {
   });
 }
 
+function toggleInterface() {
+  monitors.forEach(m => {
+    m.toggleInterface();
+  });
+}
+
 function closeWindow() {
   ipcRenderer.send("close-window");
 }
@@ -24,7 +32,6 @@ function addMonitor(m) {
 }
 
 $(() => {
-  console.log("hello");
   addMonitor(new RamData("#ram"));
   addMonitor(new CpuData("#cpu"));
 });
