@@ -2,7 +2,7 @@
 
 Simple [Electron](http://electron.atom.io) & [React](https://reactjs.org) application that shows RAM and CPU usage.
 
-![image-20200411194106167](C:/Users/joaoa/Google Drive/Projects/Blloc challenge/activity-monitor/assets/screenshot.png)
+![image-20200411194106167](./assets/screenshot.png)
 
 ## Features
 
